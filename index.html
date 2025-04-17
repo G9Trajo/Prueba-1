@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Aniquilador del Hambre</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link https://github.com/G9Trajo/Prueba-1.git>  
+</head>
+<body>
+    <div class="container">
+        <header class="my-4 text-center">
+            <h1>Bienvenido a "El Aniquilador del Hambre"</h1>
+        </header>
+
+        <section id="carta" class="my-5">
+            <h2>Nuestra Carta</h2>
+            <p>Desliza para descubrir nuestros sabores:</p>
+
+            <div id="carouselCarta" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselCarta" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselCarta" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselCarta" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselCarta" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                    <button type="button" data-bs-target="#carouselCarta" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                    <button type="button" data-bs-target="#carouselCarta" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                    <button type="button" data-bs-target="#carouselCarta" data-bs-slide-to="6" aria-label="Slide 7"></button>
+                    <button type="button" data-bs-target="#carouselCarta" data-bs-slide-to="7" aria-label="Slide 8"></button>
+                    <button type="button" data-bs-target="#carouselCarta" data-bs-slide-to="8" aria-label="Slide 9"></button>
+                    <button type="button" data-bs-target="#carouselCarta" data-bs-slide-to="9" aria-label="Slide 10"></button>
+                    <button type="button" data-bs-target="#carouselCarta" data-bs-slide-to="10" aria-label="Slide 11"></button>
+                    <button type="button" data-bs-target="#carouselCarta" data-bs-slide-to="11" aria-label="Slide 12"></button>
+                </div>
+
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="imagenes/sandwich1.webp" class="d-block w-100" alt="Sándwich Ejemplo 1">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Sándwich: Clásico Aniquilador</h5>
+                            <p><strong>Ingredientes:</strong> Carne mechada, queso cheddar, cebolla caramelizada, mayo casera.</p>
+                            <p><strong>Precio:</strong> $7.000</p>
+                        </div>
+                        <div class="d-block d-md-none mt-2"> 
+                            <h5>Sándwich: Clásico Aniquilador</h5>
+                            <p><strong>Ingredientes:</strong> Carne mechada, queso cheddar, cebolla caramelizada, mayo casera.</p>
+                            <p><strong>Precio:</strong> $7.000</p>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="imagenes/sandwich2.avif" class="d-block w-100" alt="Sándwich Ejemplo 2">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Sándwich: Pollo Teriyaki</h5>
+                            <p><strong>Ingredientes:</strong> Pollo salteado en teriyaki, pimentón, lechuga hidropónica.</p>
+                            <p><strong>Precio:</strong> $6.800</p>
+                        </div>
+                        <div class="d-block d-md-none mt-2">
+                            <h5>Sándwich: Pollo Teriyaki</h5>
+                            <p><strong>Ingredientes:</strong> Pollo salteado en teriyaki, pimentón, lechuga hidropónica.</p>
+                            <p><strong>Precio:</strong> $6.800</p>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="imagenes/sandwich3.jpg" class="d-block w-100" alt="Sándwich Ejemplo 3">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Sándwich: Veggie Power</h5>
+                            <p><strong>Ingredientes:</strong> Hamburguesa de lentejas, palta, tomate, rúcula, salsa verde.</p>
+                            <p><strong>Precio:</strong> $6.500</p>
+                        </div>
+                        <div class="d-block d-md-none mt-2">
+                            <h5>Sándwich: Veggie Power</h5>
+                            <p><strong>Ingredientes:</strong> Hamburguesa de lentejas, palta, tomate, rúcula, salsa verde.</p>
+                            <p><strong>Precio:</strong> $6.500</p>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="imagenes/plato1.jpg" class="d-block w-100" alt="Plato Ejemplo 1">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Plato: Lomo Saltado "El Jefe"</h5>
+                            <p><strong>Ingredientes:</strong> Trozos de lomo liso, cebolla morada, tomate, ají amarillo, papas fritas, arroz.</p>
+                            <p><strong>Precio:</strong> $9.500</p>
+                        </div>
+                        <div class="d-block d-md-none mt-2">
+                            <h5>Plato: Lomo Saltado "El Jefe"</h5>
+                            <p><strong>Ingredientes:</strong> Trozos de lomo liso, cebolla morada, tomate, ají amarillo, papas fritas, arroz.</p>
+                            <p><strong>Precio:</strong> $9.500</p>
+                        </div>
+                    </div>
+                    
+                    <div class="carousel-item">
+                        <img src="imagenes/plato2.webp" class="d-block w-100" alt="Plato Ejemplo 2">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Plato: Salmón a la Plancha con Quínoa</h5>
+                            <p><strong>Ingredientes:</strong> Filete de salmón grillado, quínoa tricolor, verduras salteadas.</p>
+                            <p><strong>Precio:</strong> $10.500</p>
+                        </div>
+                        <div class="d-block d-md-none mt-2">
+                            <h5>Plato: Salmón a la Plancha con Quínoa</h5>
+                            <p><strong>Ingredientes:</strong> Filete de salmón grillado, quínoa tricolor, verduras salteadas.</p>
+                            <p><strong>Precio:</strong> $10.500</p>
+                        </div>
+                    </div>
+                    
+                    <div class="carousel-item">
+                        <img src="imagenes/plato3.jpg" class="d-block w-100" alt="Plato Ejemplo 3">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Plato: Chorrillana "Aniquiladora" (para compartir)</h5>
+                            <p><strong>Ingredientes:</strong> Papas fritas caseras, carne de vacuno, pollo, chorizo, cebolla frita, huevos fritos.</p>
+                            <p><strong>Precio:</strong> $15.000</p>
+                        </div>
+                        <div class="d-block d-md-none mt-2">
+                            <h5>Plato: Chorrillana "Aniquiladora" (para compartir)</h5>
+                            <p><strong>Ingredientes:</strong> Papas fritas caseras, carne de vacuno, pollo, chorizo, cebolla frita, huevos fritos.</p>
+                            <p><strong>Precio:</strong> $15.000</p>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="imagenes/bebida1.jpg" class="d-block w-100" alt="Bebida Ejemplo 1">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Bebestible: Jugo Natural de Frutilla</h5>
+                            <p><strong>Precio:</strong> $3.000</p>
+                        </div>
+                        <div class="d-block d-md-none mt-2">
+                            <h5>Bebestible: Jugo Natural de Frutilla</h5>
+                            <p><strong>Precio:</strong> $3.000</p>
+                        </div>
+                    </div>
+                    
+                    <div class="carousel-item">
+                        <img src="imagenes/bebida2.jpg" class="d-block w-100" alt="Bebida Ejemplo 2">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Bebestible: Limonada Menta Jengibre</h5>
+                            <p><strong>Precio:</strong> $3.500</p>
+                        </div>
+                        <div class="d-block d-md-none mt-2">
+                            <h5>Bebestible: Limonada Menta Jengibre</h5>
+                            <p><strong>Precio:</strong> $3.500</p>
+                        </div>
+                    </div>
+                    
+                    <div class="carousel-item">
+                        <img src="imagenes/bebida3.webp"d-block w-100" alt="Bebida Ejemplo 3">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Bebestible: Schop Artesanal Local</h5>
+                            <p><strong>Precio:</strong> $4.000</p>
+                        </div>
+                        <div class="d-block d-md-none mt-2">
+                            <h5>Bebestible: Schop Artesanal Local</h5>
+                            <p><strong>Precio:</strong> $4.000</p>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="imagenes/postre1.webp" class="d-block w-100" alt="Postre Ejemplo 1">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Postre: Torta Tres Leches Casera</h5>
+                            <p><strong>Ingredientes:</strong> Bizcocho húmedo, mezcla de tres leches, merengue.</p>
+                            <p><strong>Precio:</strong> $4.500</p>
+                        </div>
+                        <div class="d-block d-md-none mt-2">
+                            <h5>Postre: Torta Tres Leches Casera</h5>
+                            <p><strong>Ingredientes:</strong> Bizcocho húmedo, mezcla de tres leches, merengue.</p>
+                            <p><strong>Precio:</strong> $4.500</p>
+                        </div>
+                    </div>
+                    
+                    <div class="carousel-item">
+                        <img src="imagenes/postre2.jpg" class="d-block w-100" alt="Postre Ejemplo 2">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Postre: Mousse de Chocolate Belga</h5>
+                            <p><strong>Ingredientes:</strong> Chocolate semi-amargo, crema, huevos.</p>
+                            <p><strong>Precio:</strong> $4.800</p>
+                        </div>
+                        <div class="d-block d-md-none mt-2">
+                            <h5>Postre: Mousse de Chocolate Belga</h5>
+                            <p><strong>Ingredientes:</strong> Chocolate semi-amargo, crema, huevos.</p>
+                            <p><strong>Precio:</strong> $4.800</p>
+                        </div>
+                    </div>
+                    
+                    <div class="carousel-item">
+                        <img src="imagenes/postre3.webp" class="d-block w-100" alt="Postre Ejemplo 3">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Postre: Panqueques Celestino</h5>
+                            <p><strong>Ingredientes:</strong> Panqueques finos, manjar casero, azúcar flor.</p>
+                            <p><strong>Precio:</strong> $4.200</p>
+                        </div>
+                        <div class="d-block d-md-none mt-2">
+                            <h5>Postre: Panqueques Celestino</h5>
+                            <p><strong>Ingredientes:</strong> Panqueques finos, manjar casero, azúcar flor.</p>
+                            <p><strong>Precio:</strong> $4.200</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselCarta" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselCarta" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Siguiente</span>
+                </button>
+            </div>
+        </section>
+
+        <section id="historia" class="my-5">
+            <h2>Nuestra Historia: 50 Años Aniquilando el Hambre</h2>
+            <p>Un legado de sabor y tradición familiar.</p>
+
+            <div class="row">
+                <div class="col-md-6 mb-4">
+                    <div class="card h-100">
+                        <img src="imagenes/historia1.jpg" class="card-img-top" alt="Foto histórica 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Los Inicios (1975)</h5>
+                            <p class="card-text">
+                                "Todo comenzo allá por 1975, en pleno corazón de El Barrio Brasil, Don Elias Figueroa tuvo una idea clara: ¡terminar con los bajones de hambre con sánguches que sí llenaran!. El inicio con un modesto local arrendando, con muchas ganas de terminar con el hambre y con la receta secreta de su legendaria carne mechada, nació 'El Aniquilador del Hambre', conocido desde el primer día por sus porciones ¡realmente demoledoras!"
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="card h-100">
+                        <img src="imagenes/historia2.jpg" class="card-img-top" alt="Foto histórica 2">
+                        <div class="card-body">
+                            <h5 class="card-title">La Primera Sucursal (1982)</h5>
+                            <p class="card-text">
+                                "El aniqulador crecio rapidamente y pronto la gente hacía fila. ¡'El Aniquilador' era un éxito! Tanta fue la buena acogida que en 1982, con harto esfuerzo familiar, Don Elias se establecido definitivamente al comprar el local en Calle Compañía de Jesús 2150, en pleno Barrio Brasil. Se convirtió al tiro en la 'picada' favorita de estudiantes y vecinos para el buen diente y el hambre voraz."
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <h3 class="mt-4">Testimonios de Clientes</h3>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <blockquote class="blockquote mb-0">
+                                <p>"Compadre, pal bajón, la mechada es la pura salvación. Te mandai uno de esos sánguches y quedai listo, ¡guatita llena, corazón contento! ¡Filete!"</p>
+                                <footer class="blockquote-footer">Ignacio Bahamonde <cite title="Cliente frecuente">Cliente frecuente</cite></footer>
+                            </blockquote>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <blockquote class="blockquote mb-0">
+                                <p>"¡Uyyy, esta picá tiene más años que el hilo negro! Venía con mi viejo y ahora traigo a mis cabros chicos. La mechada sigue igualita, blandita, ¡sabor casero de verdad, po! Nunca defrauda."</p>
+                                <footer class="blockquote-footer">María González <cite title="Cliente de toda la vida">Cliente de toda la vida</cite></footer>
+                            </blockquote>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <blockquote class="blockquote mb-0">
+                                <p>"¿La chorrillana? ¡Es la patá! Pedimos una pa' todo el lote de amigos y quedamos pochitos. Buena, güena y barata. ¡La fija después de la pega!"</p>
+                                <footer class="blockquote-footer">Carlos Soto <cite title="Visitante ocasional">Visitante ocasional</cite></footer>
+                            </blockquote>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="sucursales" class="my-5">
+            <h2>Nuestras Sucursales</h2>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="border p-3 h-100">
+                        <h3>Sucursal Centro</h3>
+                        <img src="imagenes/sucursal_centro_1.jpg"Foto 1 Sucursal Centro" class="img-fluid mb-2">
+                        <p><strong>Dirección:</strong> Calle Monjits 550, Santiago Centro</p>
+                        <p><strong>Mapa:</strong> <a href="https://www.google.cl/maps/place/Monjitas+550,+8320105+Santiago,+Regi%C3%B3n+Metropolitana/@-33.4367895,-70.64774,17z/data=!3m1!4b1!4m6!3m5!1s0x9662c5987e5f970f:0x3e0dd57ab5ac67a4!8m2!3d-33.436794!4d-70.6451651!16s%2Fg%2F11cs7phnvk?entry=ttu&g_ep=EgoyMDI1MDQxMy4wIKXMDSoASAFQAw%3D%3D" target="_blank">Ver en Google Maps</a></p>
+                        <p><strong>Cómo llegar:</strong> Cerca del metro bella artes</p>
+                        <p><strong>Teléfono:</strong> <a href="tel:+56945955157">+56945955157</a></p>
+                        <p><strong>Correo:</strong> <a href="mailto:centro@aniquilador.cl">centro@aniquilador.cl</a></p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="border p-3 h-100">
+                        <h3>Sucursal Providencia</h3>
+                        <img src="imagenes/sucursal_providencia_1.jpg" alt="Foto 1 Sucursal Providencia" class="img-fluid mb-2">
+                        <p><strong>Dirección:</strong> Avenida Manuel Montt 195, Providencia</p>
+                        <p><strong>Mapa:</strong> <a href="https://www.google.cl/maps/place/Manuel+Montt+095,+7500552+Providencia,+Regi%C3%B3n+Metropolitana/@-33.4279708,-70.6234316,17z/data=!3m1!4b1!4m6!3m5!1s0x9662cf628f4650d5:0xebaf039a63e2a9b0!8m2!3d-33.4279753!4d-70.6208567!16s%2Fg%2F11nnkyhmxm?entry=ttu&g_ep=EgoyMDI1MDQxMy4wIKXMDSoASAFQAw%3D%3D" target="_blank">Ver en Google Maps</a></p>
+                        <p><strong>Cómo llegar:</strong> Cerca del metro manuel montt</p>
+                        <p><strong>Teléfono:</strong> <a href="tel:+56933334444">+56933334444</a></p>
+                        <p><strong>Correo:</strong> <a href="mailto:providencia@aniquilador.cl">providencia@aniquilador.cl</a></p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="border p-3 h-100">
+                        <h3>Sucursal Ñuñoa</h3>
+                        <img src="imagenes/sucursal_nuñoa_1.webp" alt="Foto 1 Sucursal Ñuñoa" class="img-fluid mb-2">
+                        <p><strong>Dirección:</strong> Calle Jorge Washington 55, Ñuñoa</p>
+                        <p><strong>Mapa:</strong> <a href="https://www.google.cl/maps/place/Jorge+Washington+55,+%C3%91u%C3%B1oa,+Regi%C3%B3n+Metropolitana/@-33.4546406,-70.5966763,17z/data=!3m1!4b1!4m5!3m4!1s0x9662cfbee5587707:0x2ed07b73cc3898ea!8m2!3d-33.4546451!4d-70.5941014?entry=ttu&g_ep=EgoyMDI1MDQxMy4wIKXMDSoASAFQAw%3D%3D" target="_blank">Ver en Google Maps</a></p>
+                        <p><strong>Cómo llegar:</strong> Cerca de Plaza Ñuñoa.</p>
+                        <p><strong>Teléfono:</strong> <a href="tel:+56933568125">+56933568125</a></p>
+                        <p><strong>Correo:</strong> <a href="mailto:nunoa@aniquilador.cl">nunoa@aniquilador.cl</a></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacto" class="my-5">
+            <h2>Contacto</h2>
+            <p>¿Consultas o reclamos? Escríbenos:</p>
+
+            <form>
+                <div class="mb-3">
+                    <label for="nombre" class="form-label">Nombre Completo:</label>
+                    <input type="text" class="form-control" id="nombre" name="nombre" required>
+                </div>
+                <div class="mb-3">
+                    <label for="correo" class="form-label">Correo Electrónico:</label>
+                    <input type="email" class="form-control" id="correo" name="correo" required>
+                </div>
+                <div class="mb-3">
+                    <label for="telefono" class="form-label">Teléfono de Contacto:</label>
+                    <input type="tel" class="form-control" id="telefono" name="telefono" required>
+                </div>
+                <div class="mb-3">
+                    <label for="tipo_mensaje" class="form-label">Tipo de Mensaje:</label>
+                    <select class="form-select" id="tipo_mensaje" name="tipo_mensaje" required>
+                        <option value="" disabled selected>-- Selecciona una opción --</option>
+                        <option value="consulta">Consulta</option>
+                        <option value="reclamo">Reclamo</option>
+                    </select>
+                </div>
+                <div class="mb-3">
+                    <label for="mensaje" class="form-label">Mensaje:</label>
+                    <textarea class="form-control" id="mensaje" name="mensaje" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar Mensaje</button>
+            </form>
+        </section>
+
+        <footer class="my-5 pt-4 border-top text-center">
+            <p><strong>Teléfonos Sucursales:</strong></p>
+            <p>
+                Centro: <a href="tel:+56945955157">+56945955157</a> |
+                Providencia: <a href="tel:+56933334444">+56933334444</a> |
+                Ñuñoa: <a href="tel:+56255556666">+56 2 5555 6666</a>
+            </p>
+            <p class="mt-3"><strong>Síguenos en Redes Sociales:</strong></p>
+            <p>
+                <a href="#" target="_blank" class="mx-2">Facebook</a> |
+                <a href="#" target="_blank" class="mx-2">Instagram</a> |
+                <a href="#" target="_blank" class="mx-2">Twitter</a>
+            </p>
+            <p class="mt-4"><small>&copy;  Todos los derechos reservados  Maverik Campos 2025.</small></p>
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
